@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c54536-5b14-40b9-a111-49f43cc77fd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/Cliente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/Produto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/Venda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/VendaDTO.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/conversor/ConversorVendaDTO.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/conversor/MainConversorComplexo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtos/ConversorEmpresaCustomizado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtos/ConversorEmpresaCustomizado.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtos/ConversorEmpresaObjetosIguais.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtos/ConversorEmpresaObjetosIguais.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/conversor/MainConversorComplexo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtoscomplexos/conversor/MainConversorComplexo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,21 +108,21 @@
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
     <state x="678" y="177" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578398095989" />
-    <state width="1874" height="268" key="GridCell.Tab.0.bottom" timestamp="1578399341255">
+    <state width="1874" height="268" key="GridCell.Tab.0.bottom" timestamp="1578414419424">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578399341255" />
-    <state width="1874" height="268" key="GridCell.Tab.0.center" timestamp="1578399341254">
+    <state width="1874" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
+    <state width="1874" height="268" key="GridCell.Tab.0.center" timestamp="1578414419424">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.center/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578399341254" />
-    <state width="1874" height="268" key="GridCell.Tab.0.left" timestamp="1578399341252">
+    <state width="1874" height="268" key="GridCell.Tab.0.center/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
+    <state width="1874" height="268" key="GridCell.Tab.0.left" timestamp="1578414419424">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.left/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578399341252" />
-    <state width="1874" height="268" key="GridCell.Tab.0.right" timestamp="1578399341254">
+    <state width="1874" height="268" key="GridCell.Tab.0.left/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
+    <state width="1874" height="268" key="GridCell.Tab.0.right" timestamp="1578414419424">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.right/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578399341254" />
+    <state width="1874" height="268" key="GridCell.Tab.0.right/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
   </component>
 </project>

@@ -13,3 +13,15 @@ n
 >src/main/kotlin/transformacao/kotlin/dtos/EmpresaSimplesDTO.kt,0/a/0ac372e612c0185bf00687317797f0a67eb03947
 d
 4src/main/kotlin/transformacao/kotlin/dtos/Empresa.kt,7/f/7f9793561a561f075432f272945af88d36b2677e
+s
+Csrc/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/Produto.kt,6/2/626033a4fe1812f87a0f3f1a36847e63e6a322d4
+s
+Csrc/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/Cliente.kt,8/9/89197105ffb539018a02de5a3d8099e253fc5e02
+q
+Asrc/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/Venda.kt,a/3/a393d0b05c509ddbefe260f1ce7b9ff92e2dc051
+t
+Dsrc/main/kotlin/transformacao/kotlin/dtoscomplexos/beans/VendaDTO.kt,3/a/3a28fb85f8737b28923b2f4a68085d2f358b5e9a
+Ö
+Usrc/main/kotlin/transformacao/kotlin/dtoscomplexos/conversor/MainConversorComplexo.kt,3/7/377c6a38f140b4f4a846cca5f5a046312fe0f10a
+Å
+Qsrc/main/kotlin/transformacao/kotlin/dtoscomplexos/conversor/ConversorVendaDTO.kt,f/3/f3e78f12d365107167ba9951063d2457a8d5c9ad

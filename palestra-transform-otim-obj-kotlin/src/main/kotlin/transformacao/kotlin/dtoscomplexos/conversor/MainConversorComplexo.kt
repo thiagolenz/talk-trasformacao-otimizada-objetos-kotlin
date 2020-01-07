@@ -21,6 +21,17 @@ fun main() {
                                     valorUnitario = BigDecimal(1000)))
             )
     )
-
+    var conversionStart = System.currentTimeMillis()
     println(venda.toVendaDTO())
+    println(System.currentTimeMillis() - conversionStart)
+
+    conversionStart = System.currentTimeMillis()
+    println(venda.toVendaDTO())
+    println(System.currentTimeMillis() - conversionStart)
+
+    Thread.sleep(50000)
+
+    conversionStart = System.currentTimeMillis()
+    println(venda.toVendaDTO())
+    println(System.currentTimeMillis() - conversionStart)
 }
