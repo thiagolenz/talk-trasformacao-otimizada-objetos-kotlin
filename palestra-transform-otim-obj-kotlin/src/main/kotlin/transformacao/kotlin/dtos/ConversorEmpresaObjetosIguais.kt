@@ -10,7 +10,8 @@ fun Empresa.toEmpresaDTO() = with(::EmpresaDTO) {
 }
 
 /**
-    1 - Primeiro ponto é criado um Extension Function para a classe Empresa, um Lambda
+    1 - Primeiro ponto é criado um Extension Function para a classe Empresa, um Lambda,
+        with (::EmpresaDTO) passa a referencia do construtor padrão
     2 - O Retorno dessa extension function é um objeto do tipo EmpresaDTO,
     3 - O terceiro passo é obter um mapa de propriiedades do Objeto origem, no caso Empresa
     4 - É invocado o construtor padrão da class EmpresaDTO através da instrução callBy
