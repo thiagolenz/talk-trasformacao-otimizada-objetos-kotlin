@@ -79,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="transformacao.kotlin.dtoscomplexos.conversor.MainConversorComplexoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="palestra-transform-otim-obj-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="transformacao.kotlin.dtoscomplexos.conversor.MainConversorComplexoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.transformacao.kotlin.dtoscomplexos.conversor.MainConversorComplexoKt" />
         <item itemvalue="Kotlin.transformacao.kotlin.dtos.MainConversorEmpresaKt" />
       </list>
     </recent_temporary>
@@ -110,21 +124,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="268" key="GridCell.Tab.0.bottom" timestamp="1578312740154">
+    <state x="678" y="177" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1578398095989">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578312740154" />
-    <state width="1874" height="268" key="GridCell.Tab.0.center" timestamp="1578312740154">
+    <state x="678" y="177" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578398095989" />
+    <state width="1874" height="268" key="GridCell.Tab.0.bottom" timestamp="1578414419424">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.center/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578312740154" />
-    <state width="1874" height="268" key="GridCell.Tab.0.left" timestamp="1578312740154">
+    <state width="1874" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
+    <state width="1874" height="268" key="GridCell.Tab.0.center" timestamp="1578414419424">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.left/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578312740154" />
-    <state width="1874" height="268" key="GridCell.Tab.0.right" timestamp="1578312740154">
+    <state width="1874" height="268" key="GridCell.Tab.0.center/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
+    <state width="1874" height="268" key="GridCell.Tab.0.left" timestamp="1578414419424">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="1874" height="268" key="GridCell.Tab.0.right/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578312740154" />
+    <state width="1874" height="268" key="GridCell.Tab.0.left/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
+    <state width="1874" height="268" key="GridCell.Tab.0.right" timestamp="1578414419424">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1874" height="268" key="GridCell.Tab.0.right/0.27.1920.1020/1920.136.1366.768@0.27.1920.1020" timestamp="1578414419424" />
   </component>
 </project>
