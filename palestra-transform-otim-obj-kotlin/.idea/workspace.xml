@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c54536-5b14-40b9-a111-49f43cc77fd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/talk-trasformacao-otimizada-objetos-kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtos/ConversorEmpresaDTOJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtos/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtos/EmpresaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtos/MainJavaConverterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/VendaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/conversores/ClienteConversor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/conversores/ProdutoConversor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/conversores/VendaConversor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/ClienteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/ProdutoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/VendaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/VendaItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palestra-transform-otim-obj-kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/palestra-transform-otim-obj-kotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/VendaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/VendaItem.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="transformacao.java.dtoscomplexos.objetos" />
       <recent name="transformacao.java.dtos" />
     </key>
   </component>
@@ -65,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.transformacao.kotlin.dtos.MainConversorEmpresaKt">
     <configuration name="transformacao.kotlin.dtos.MainConversorEmpresaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="palestra-transform-otim-obj-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -117,7 +118,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

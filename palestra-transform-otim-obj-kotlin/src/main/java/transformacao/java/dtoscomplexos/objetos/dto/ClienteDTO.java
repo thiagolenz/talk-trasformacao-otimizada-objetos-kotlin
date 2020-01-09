@@ -1,6 +1,6 @@
-package transformacao.java.dtoscomplexos.objetos;
+package transformacao.java.dtoscomplexos.objetos.dto;
 
-public class Cliente {
+public class ClienteDTO {
     private String nome;
     private String documento;
     private String endereco;

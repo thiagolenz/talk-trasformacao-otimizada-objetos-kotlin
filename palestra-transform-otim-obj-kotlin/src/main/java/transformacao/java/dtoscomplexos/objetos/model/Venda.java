@@ -1,4 +1,4 @@
-package transformacao.java.dtoscomplexos.objetos;
+package transformacao.java.dtoscomplexos.objetos.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
