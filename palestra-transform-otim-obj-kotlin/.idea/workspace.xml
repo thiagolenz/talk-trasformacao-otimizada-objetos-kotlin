@@ -8,10 +8,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtos/Empresa.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtos/EmpresaDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtos/MainJavaConverterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/VendaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/VendaItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/palestra-transform-otim-obj-kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/palestra-transform-otim-obj-kotlin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
