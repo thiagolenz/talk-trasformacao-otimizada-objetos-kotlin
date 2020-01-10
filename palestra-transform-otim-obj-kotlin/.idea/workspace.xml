@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c54536-5b14-40b9-a111-49f43cc77fd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/conversores/ClienteConversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/conversores/ProdutoConversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/conversores/VendaConversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/ClienteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/ProdutoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/VendaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/dto/VendaItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtosimples/ConversorSimplesKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtosimples/Empresa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtosimples/EmpresaDTO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/VendaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transformacao/java/dtoscomplexos/objetos/model/VendaItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/palestra-transform-otim-obj-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/palestra-transform-otim-obj-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/transformacao/kotlin/dtos/ConversorEmpresaObjetosIguaisKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transformacao/kotlin/dtos/ConversorEmpresaObjetosIguaisKt.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -45,13 +38,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtosimples" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="transformacao.kotlin.dtosimples" />
       <recent name="transformacao.java.dtoscomplexos.objetos" />
       <recent name="transformacao.java.dtos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/transformacao/kotlin/dtosimples" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.transformacao.kotlin.dtos.MainConversorEmpresaKt">
+  <component name="RunManager" selected="Kotlin.transformacao.kotlin.dtosimples.ConversorSimplesKotlinKt">
     <configuration name="transformacao.kotlin.dtos.MainConversorEmpresaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="palestra-transform-otim-obj-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -93,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="transformacao.kotlin.dtosimples.ConversorSimplesKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="palestra-transform-otim-obj-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="transformacao.kotlin.dtosimples.ConversorSimplesKotlinKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.transformacao.kotlin.dtosimples.ConversorSimplesKotlinKt" />
         <item itemvalue="Kotlin.transformacao.kotlin.dtoscomplexos.conversor.MainConversorComplexoKt" />
         <item itemvalue="Kotlin.transformacao.kotlin.dtos.MainConversorEmpresaKt" />
       </list>
