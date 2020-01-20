@@ -12,4 +12,6 @@ fun main() {
 
     val empresaSimplesDTO = empresa.toEmpresaSimplesDTO()
     println(empresaSimplesDTO)
+
+    println(empresaDTO.toEmpresa())
 }

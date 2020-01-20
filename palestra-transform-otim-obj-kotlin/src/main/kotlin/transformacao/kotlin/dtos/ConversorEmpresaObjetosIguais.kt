@@ -3,11 +3,36 @@ package transformacao.kotlin.dtos
 import kotlin.reflect.full.memberProperties
 
 fun Empresa.toEmpresaDTO() = with(::EmpresaDTO) {
-    val propertiesByName = Empresa::class.memberProperties.associateBy { it.name }
-    callBy(parameters.associateWith {
-        propertiesByName[it.name]?.get(this@toEmpresaDTO)
-    })
+    // obter propriedades da Empresa através de Reflexão
+    val mapProperEmpresa = Empresa::class.memberProperties.associateBy { it.name }
+
+    // mapa de chave (váriavel) valor
+    val mapaConstrutor = parameters.associateWith {
+        mapProperEmpresa[it.name]?.get(this@toEmpresaDTO)
+    }
+
+    // callBy de KotlinReflections recebe um mapa e aplica
+    // no construtor obtido no retorno do metodo através dos ::
+    callBy(mapaConstrutor)
 }
+
+
+fun EmpresaDTO.toEmpresa() = with(::Empresa) {
+    // obter propriedades da EmpresaDTO através de Reflexão
+    val propertiesByName = EmpresaDTO::class.memberProperties.associateBy { it.name }
+
+    // mapa de chave (váriavel) valor
+    val mapaConstrutor = parameters.associateWith {
+        propertiesByName[it.name]?.get(this@toEmpresa)
+    }
+
+    // callBy de KotlinReflections recebe um mapa e aplica
+    // no construtor obtido no retorno do metodo através dos ::
+    callBy(mapaConstrutor)
+}
+
+
+
 
 /**
     1 - Primeiro ponto é criado um Extension Function para a classe Empresa, um Lambda,

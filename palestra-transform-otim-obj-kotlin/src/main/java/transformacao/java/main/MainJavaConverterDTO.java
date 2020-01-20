@@ -1,4 +1,8 @@
-package transformacao.java.dtos;
+package transformacao.java.main;
+
+import transformacao.java.dtos.ConversorEmpresaDTOJava;
+import transformacao.java.dtos.Empresa;
+import transformacao.java.dtos.EmpresaDTO;
 
 import java.time.LocalDateTime;
 
