@@ -4,14 +4,15 @@ import kotlin.reflect.full.memberProperties
 
 fun Empresa.toEmpresaDTO() = with(::EmpresaDTO) {
     // obter propriedades da Empresa através de Reflexão
+    // Map<String, KProperty>
     val mapProperEmpresa = Empresa::class.memberProperties.associateBy { it.name }
 
-    // mapa de chave (váriavel) valor
+    // Map<KParameter, Any?>
     val mapaConstrutor = parameters.associateWith {
         mapProperEmpresa[it.name]?.get(this@toEmpresaDTO)
     }
 
-    // callBy de KotlinReflections recebe um mapa e aplica
+    // callBy de KotlinReflections recebe o Mapa de Parametros e aplica
     // no construtor obtido no retorno do metodo através dos ::
     callBy(mapaConstrutor)
 }
